@@ -1,0 +1,17 @@
+﻿<Application x:Class="days2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:days2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#ff9c1a">
+            </Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#ffffff"></Setter>
+            <Setter Property="Background" Value="#ff9c1a"></Setter>
+        </Style>
+
+    </Application.Resources>
+</Application>
